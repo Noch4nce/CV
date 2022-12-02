@@ -26,7 +26,7 @@ h1 {
 }
 
 p {
-  margin: 8px 0;
+  margin: 5px 0;
   /*margin: 0px;*/
 }
 
@@ -78,7 +78,7 @@ button:hover {
 
 .left-col {
   width: 22%;
-  margin: 23px 0;
+  margin: 24px 0;
   background-color: #e2dec1;
   padding: 26px;
 }
@@ -185,10 +185,11 @@ header img {
 }
 
 .right-col section {
-  margin-top: 23px;
+  margin-top: 24px;
 }
+
 .work p {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .work ul {
@@ -196,7 +197,11 @@ header img {
 }
 
 .exp-block {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
+}
+
+.exp-container {
+  margin-top: 22px !important;
 }
 
 .main-head {
