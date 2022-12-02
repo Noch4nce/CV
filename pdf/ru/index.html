@@ -5,19 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <article class="container">
       <section class="right-col">
-        <header>
-          <h1>
-            Александр <br />
-            Шестаков
-          </h1>
-          <p>Front-end web developer</p>
-          <img src="./images/Divider.svg" alt="Divider" />
-        </header>
         <section>
           <h2>Summary</h2>
           <p>
@@ -29,7 +21,7 @@
             прогрессировать и улучшать свои навыки в веб разработке.
           </p>
         </section>
-        <section>
+        <section class='exp-container'>
           <h2>Experience</h2>
           <ul class="work">
             <li class="exp-block">
@@ -93,10 +85,7 @@
                 Toolkit, Axios + Fetch, SCSS, React Router v6
               </p>
               <p>
-                <b
-                  >Разработал полноценное фронтенд-приложение (SPA) с полного
-                  нуля на ReactJS:</b
-                >
+                <b>Разработал полноценное фронтенд-приложение (SPA) с полного нуля на ReactJS:</b>
               </p>
               <ul>
                 <li>
@@ -182,84 +171,25 @@
                 <li>Использование методологии Kanban (Trello).</li>
               </ul>
             </li>
-            <li class="exp-block">
-              <p>
-                <b>Virtual Keyboard</b
-                ><span>
-                  (<a
-                    target="_blank"
-                    href="https://rolling-scopes-school.github.io/noch4nce-JS2020Q3/virtual-keyboard/"
-                    >ссылка</a
-                  >)</span
-                >
-                - образовательный проект по созданию виртуальной клавиатуры.
-              </p>
-              <b>окт. 2020 г. - нояб. 2020 г.</b>
-              <p><b>Задачи, которые решал в процессе разработки:</b></p>
-              <ul>
-                <li>
-                  Познакомился с экспериментальной технологией распознавания
-                  голоса (SpeechRecognition).
-                </li>
-                <li>
-                  Использовал возможности ES6 (классы, деструктуризация, лямбда
-                  функции и т.д.).
-                </li>
-                <li>Рефакторинг кода (KISS, DRY, SOLID).</li>
-              </ul>
-              <p><b>Функционал который реализовал:</b></p>
-              <ul>
-                <li>Базовая функциональность клавиатуры</li>
-                <li>Смена регистра букв</li>
-                <li>Вертикальная/горизонтальная навигация</li>
-                <li>Подсветка клавиш</li>
-                <li>Смена языка en/ru</li>
-                <li>Озвучивание нажатия клавиш</li>
-                <li>Голосовой ввод текста</li>
-              </ul>
-            </li>
-            <li>
-              <p>
-                <b>Shelter</b
-                ><span>
-                  (<a
-                    target="_blank"
-                    href="https://rolling-scopes-school.github.io/noch4nce-JS2020Q3/shelter/pages/main/"
-                    >ссылка</a
-                  >)</span
-                >
-                - лендинг, приют для домашних животных.
-              </p>
-              <b>июл. 2020 г. - авг. 2020 г.</b>
-              <p><b>Задачи, которые решал в процессе разработки:</b></p>
-              <ul>
-                <li>Вёрстка с применением HTML/CSS/SASS(препроцессор)</li>
-                <li>Адаптивная верстка с использованием медиа-запросов</li>
-                <li>Кроссбраузерная поддержка</li>
-                <li>PerfectPixel</li>
-                <li>Интерактивность</li>
-              </ul>
-              <p><b>Функционал который реализовал:</b></p>
-              <ul>
-                <li>Слайдер</li>
-                <li>Пагинацию</li>
-                <li>Popup-окна</li>
-              </ul>
-            </li>
           </ul>
         </section>
       </section>
       <aside class="left-col">
-        <img class="avatar" src="./images/avatar.jpg" alt="avatar" />
+        <!--        <img class="avatar" src='../../images/avatar.jpg' alt="avatar" />-->
+        <div class="main-head">
+          <h1>Александр Шестаков</h1>
+          <p>Front-end web developer</p>
+          <p><img src="../../images/Divider.svg" alt="Divider" /></p>
+        </div>
         <section class="contacts">
           <h2>Contact</h2>
           <ul>
             <li>
-              <img src="./images/phone-call.svg" alt="phone-call" />
+              <img src="../../images/phone-call.svg" alt="phone-call" />
               <b>+7 922 22 73 482</b>
             </li>
             <li>
-              <img src="./images/gmail.png" alt="gmail" />
+              <img src="../../images/gmail.png" alt="gmail" />
               <b
                 ><a href="mailto:imcont123@gmail.com">
                   imcont123@gmail.com</a
@@ -267,7 +197,7 @@
               >
             </li>
             <li>
-              <img src="./images/github.svg" alt="github" />
+              <img src="../../images/github.svg" alt="github" />
               <b
                 ><a target="_blank" href="https://github.com/Noch4nce">
                   github.com/Noch4nce</a
@@ -275,7 +205,7 @@
               >
             </li>
             <li>
-              <img src="./images/telegram.svg" alt="telegram" />
+              <img src="../../images/telegram.svg" alt="telegram" />
               <b
                 ><a target="_blank" href="https://t.me/noch4nce">
                   +7 922 22 73 482</a
@@ -283,22 +213,22 @@
               >
             </li>
             <li>
-              <img src="./images/LinkedIn.png" alt="LinkedIn" />
+              <img src="../../images/LinkedIn.png" alt="LinkedIn" />
               <b
-                ><a
+              ><a
                   target="_blank"
                   href="https://www.linkedin.com/in/aleksandr-shestakov-909689206/"
-                >
-                  LinkedIn.com</a
-                ></b
+              >
+                LinkedIn.com</a
+              ></b
               >
             </li>
             <li>
-              <img src="./images/discord.png" alt="discord" />
+              <img src="../../images/discord.png" alt="discord" />
               <b>Nochance#3547</b>
             </li>
             <li>
-              <img src="./images/geo.png" alt="geo" />
+              <img src="../../images/geo.png" alt="geo" />
               <b>Екатеринбург, Россия</b>
             </li>
           </ul>

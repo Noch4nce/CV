@@ -19,7 +19,8 @@ h2,
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 32px;
+  color: #3e4444;
   line-height: 1.3;
   margin: 0;
 }
@@ -66,9 +67,9 @@ button:hover {
 }
 
 .container {
-  width: 1200px;
+  width: 1140px;
   background-color: #f2f2f2;
-  margin: 30px auto;
+  margin: 0 auto;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
   padding: 0 24px;
   display: flex;
@@ -90,11 +91,11 @@ button:hover {
   width: 100%;
   border-radius: 15%;
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto;
 }
 
 .left-col section {
-  margin-top: 30px;
+  /*margin-top: 45px;*/
 }
 
 .contacts li {
@@ -114,7 +115,7 @@ a {
 }
 
 .contacts img {
-  width: 1.4rem;
+  width: 1.2rem;
   text-align: center;
   margin-right: 0.4rem;
   font-size: 1rem;
@@ -167,7 +168,6 @@ a {
 }
 
 .right-col {
-  margin: 24px 0;
   width: 74%;
   padding-left: 24px;
   font-size: 20px;
